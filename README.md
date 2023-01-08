@@ -14,7 +14,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build --base-href /dancing-kimchi-web/ --deploy-url /dancing-kimchi-web/ ` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-ng build --base-href /dancing-kimchi-web/ --deploy-url /dancing-kimchi-web/
+ng build --base-href /dancing-kimchi-web/
 cd .\dist\dancing-kimchi-web\
 git init
 git add .
@@ -22,6 +22,7 @@ git remote add origin https://github.com/TzuHuanTai/dancing-kimchi-web.git
 git branch -M gh-pages
 git commit -m "deploy"
 git push origin gh-pages -f
+cd ../..
 
 ## Running unit tests
 
