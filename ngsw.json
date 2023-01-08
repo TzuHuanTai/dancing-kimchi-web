@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1673170916296,
+  "index": "/dancing-kimchi-web/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/dancing-kimchi-web/favicon.ico",
+        "/dancing-kimchi-web/index.html",
+        "/dancing-kimchi-web/main.272b2be18b38b1cb.js",
+        "/dancing-kimchi-web/manifest.webmanifest",
+        "/dancing-kimchi-web/polyfills.e8e59c09d24a4eed.js",
+        "/dancing-kimchi-web/runtime.24bbf90594a00505.js",
+        "/dancing-kimchi-web/styles.352c902094372b7f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/dancing-kimchi-web/assets/fonts/KaushanScript-Regular.ttf",
+        "/dancing-kimchi-web/assets/icons/icon-128x128.png",
+        "/dancing-kimchi-web/assets/icons/icon-144x144.png",
+        "/dancing-kimchi-web/assets/icons/icon-152x152.png",
+        "/dancing-kimchi-web/assets/icons/icon-192x192.png",
+        "/dancing-kimchi-web/assets/icons/icon-384x384.png",
+        "/dancing-kimchi-web/assets/icons/icon-512x512.png",
+        "/dancing-kimchi-web/assets/icons/icon-72x72.png",
+        "/dancing-kimchi-web/assets/icons/icon-96x96.png",
+        "/dancing-kimchi-web/assets/logo/logo.png",
+        "/dancing-kimchi-web/assets/logo/logo.svg",
+        "/dancing-kimchi-web/assets/logo/logo2.png",
+        "/dancing-kimchi-web/assets/nutrition/orange_nutrition.png",
+        "/dancing-kimchi-web/assets/nutrition/orange_nutrition_protrait.png",
+        "/dancing-kimchi-web/assets/sample/index_1.JPG",
+        "/dancing-kimchi-web/assets/sample/index_2.JPG",
+        "/dancing-kimchi-web/assets/sample/orange_1.jpg",
+        "/dancing-kimchi-web/orange_nutrition.b8062dc6d9405be1.png",
+        "/dancing-kimchi-web/orange_nutrition_protrait.b24568b4ab927011.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/dancing-kimchi-web/assets/fonts/KaushanScript-Regular.ttf": "8b203c70f9c8f5d437eb5a87a6c7df39fb2996b7",
+    "/dancing-kimchi-web/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/dancing-kimchi-web/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/dancing-kimchi-web/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/dancing-kimchi-web/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/dancing-kimchi-web/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/dancing-kimchi-web/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/dancing-kimchi-web/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/dancing-kimchi-web/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/dancing-kimchi-web/assets/logo/logo.png": "235a9881dccf94b7af3180dd97c9237bd0710e07",
+    "/dancing-kimchi-web/assets/logo/logo.svg": "b365a971912436c6e91b600d66f5eefad8ff9339",
+    "/dancing-kimchi-web/assets/logo/logo2.png": "8d62b6999b206e1ad07cc44e164646e0d291f933",
+    "/dancing-kimchi-web/assets/nutrition/orange_nutrition.png": "f99091acbce1f92940660efe3fdb84aa036a84c4",
+    "/dancing-kimchi-web/assets/nutrition/orange_nutrition_protrait.png": "9ba8b267bbefce5a14257ff8e4137449fa0b2edb",
+    "/dancing-kimchi-web/assets/sample/index_1.JPG": "d09e612871fab2f9c1a2b07004a6998ac634dc4c",
+    "/dancing-kimchi-web/assets/sample/index_2.JPG": "976426e0bd1ccadc5db79e4308914123df75c670",
+    "/dancing-kimchi-web/assets/sample/orange_1.jpg": "15eda34a99d941ef8f618688398881d848b87e40",
+    "/dancing-kimchi-web/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/dancing-kimchi-web/index.html": "7acc01f55d551057dd1f1783d3a9a087a201c59e",
+    "/dancing-kimchi-web/main.272b2be18b38b1cb.js": "f9cccb57653ea243972df42e1371628f4f9ffc79",
+    "/dancing-kimchi-web/manifest.webmanifest": "df419846800660057b0c3d84199c7718c64710c4",
+    "/dancing-kimchi-web/orange_nutrition.b8062dc6d9405be1.png": "f99091acbce1f92940660efe3fdb84aa036a84c4",
+    "/dancing-kimchi-web/orange_nutrition_protrait.b24568b4ab927011.png": "9ba8b267bbefce5a14257ff8e4137449fa0b2edb",
+    "/dancing-kimchi-web/polyfills.e8e59c09d24a4eed.js": "2b18ed83386c53f09246ba55e0afafa0abf8e2bb",
+    "/dancing-kimchi-web/runtime.24bbf90594a00505.js": "515d26357d7fc8b6ae4f29b292959e1bb1064c7f",
+    "/dancing-kimchi-web/styles.352c902094372b7f.css": "77f54bc901edb8afa5f8992680118506ac780819"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
