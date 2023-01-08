@@ -2,7 +2,9 @@
 
 html,
 body {
-    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -24,6 +26,7 @@ body {
 main#content {
     width: 100%;
     padding: 0 10vw;
+    flex: 1;
 }
 
 .global-footer{
