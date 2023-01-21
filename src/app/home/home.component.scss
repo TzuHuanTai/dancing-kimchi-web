@@ -71,12 +71,12 @@ p {
 
         .action-block-contain {
             grid-column: 2/-1;
-            padding-left: 66%;
+            padding-left: 33vw;
             padding-right: 3rem;
         }
 
         figure {
-            margin-right: -40px;
+            margin-right: -4vw;
         }
     }
 
@@ -90,12 +90,12 @@ p {
 
         .action-block-contain {
             grid-column: 1/3;
-            padding-right: 66%;
+            padding-right: 33vw;
             padding-left: 3rem;
         }
 
         figure {
-            margin-right: 40px;
+            margin: 4vw 0 0 4vw;
         }
     }
 }
@@ -107,43 +107,27 @@ p {
 
     .action-block {
         padding-bottom: 1rem;
-    }
-
-    .action-block-a {
         grid-template-rows: repeat(2, 1fr);
 
         .action-block-media {
             grid-row: 1/2;
             margin-bottom: -50px;
-            padding: 0 6vw;
         }
 
         .action-block-contain {
             grid-row: 2/-1;
             padding: 50px 1vw 1vh 1vw;
             text-align: center;
-            height: 20vh;
+            height: 35vw;
         }
     }
 
-    .action-block-b {
-        grid-template-rows: repeat(2, 1fr);
-
-        .action-block-media {
-            grid-row: 1/2;
-            margin-bottom: -50px;
-            padding: 0 6vw;
-        }
-
-        .action-block-contain {
-            grid-row: 2/-1;
-            padding: 50px 1vw 1vh 1vw;
-            text-align: center;
-            height: 20vh;
-        }
+    figure {
+        margin: 0 auto;
+        padding: 0 6vw;
     }
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }

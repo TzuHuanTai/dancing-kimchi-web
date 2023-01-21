@@ -27,8 +27,8 @@ section {
     margin-top: 3rem;
 }
 
-img{
-    max-width: 100%;
+img {
+    width: 100%;
 }
 
 .action-block {
@@ -65,7 +65,7 @@ img{
 
         .action-block-contain {
             grid-column: 2/-1;
-            padding-left: 66%;
+            padding-left: 33vw;
             padding-right: 3rem;
         }
 
@@ -86,15 +86,20 @@ img{
 
         .action-block-media {
             grid-row: 1/2;
-            margin-bottom: -10rem;
-            padding: 0 3vw;
+            margin-bottom: -10vw;
         }
 
         .action-block-contain {
             grid-row: 2/-1;
-            padding: 10rem 1vw 1vh 1vw;
+            height: 30rem;
+            padding: 6vw 1vw 1vw 1vw;
             text-align: center;
         }
+    }
+
+    figure {
+        margin: 0 auto;
+        padding: 0 4vw;
     }
 
     img.orange-nutrition {
