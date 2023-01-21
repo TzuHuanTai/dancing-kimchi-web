@@ -1,8 +1,8 @@
 {
-  "name": "dancing-kimchi-web",
-  "short_name": "dancing-kimchi-web",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "name": "dancing kimchi",
+  "short_name": "dancing kimchi",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "display": "standalone",
   "scope": "/",
   "start_url": "https://dancingkimchi.azurewebsites.net/",
