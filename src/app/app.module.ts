@@ -10,6 +10,9 @@ import { NavComponent } from './nav/nav.component';
 import { OrderComponent } from './order/order.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
+import { LocationsComponent } from './locations/locations.component';
+import { SharedMaterialModule } from './shared-material.module';
+import { PositionHintComponent } from './locations/snack-bar/position-hint.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,9 @@ import { ProductsComponent } from './products/products.component';
     NavComponent,
     HomeComponent,
     OrderComponent,
-    ProductsComponent
+    ProductsComponent,
+    LocationsComponent,
+    PositionHintComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,8 @@ import { ProductsComponent } from './products/products.component';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     }),
-    NgbModule
+    NgbModule,
+    SharedMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

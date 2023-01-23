@@ -1,0 +1,14 @@
+img {
+    position: relative;
+    width: 100%;
+}
+
+.actions {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    .buttons {
+        flex: 1;
+    }
+}
