@@ -25,7 +25,7 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
       address: '945 NE 69th St, Seattle, WA 98115',
       coordinate: [47.678379479258055, -122.3176071273783],
       form_url: 'https://docs.google.com/forms/d/e/1FAIpQLSeEtzXIYPsjWsRnM5RGJ3qyQ1aqj1py7IJLL0Lrba_hrFvrNg' +
-        '/viewform?embedded=true&usp=pp_url&entry.1742789131=4:00+PM+Saturday@Parking+near+Roosevelt+Station+(945+NE+69th+St,+Seattle,+WA+98115)',
+        '/viewform?embedded=true&usp=pp_url&entry.1742789131=4:00+PM+@Parking+near+Roosevelt+Station+(945+NE+69th+St,+Seattle,+WA+98115)',
       image_url: 'assets/positions/roosevelt_parking.jpg',
     },
     {
@@ -33,7 +33,7 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
       address: '10116 NE 8th St, Bellevue, WA 98004',
       coordinate: [47.61788385121235, -122.20540697482997],
       form_url: 'https://docs.google.com/forms/d/e/1FAIpQLSeEtzXIYPsjWsRnM5RGJ3qyQ1aqj1py7IJLL0Lrba_hrFvrNg' +
-        '/viewform?embedded=true&usp=pp_url&entry.1742789131=1:00+PM+Saturday@Under+the+clock+at+Bellevue+Bartell+(10116+NE+8th+St,+Bellevue,+WA+98004)',
+        '/viewform?embedded=true&usp=pp_url&entry.1742789131=1:00+PM+@Under+the+clock+at+Bellevue+Bartell+(10116+NE+8th+St,+Bellevue,+WA+98004)',
       image_url: 'assets/positions/bellevue_bartell.jpg',
     },
   ];

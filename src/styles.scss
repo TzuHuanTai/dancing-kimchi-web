@@ -5,12 +5,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    padding-top: 112px;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 98px;;
+    }
 }
 
 @media (max-width: 768px) {
