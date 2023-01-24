@@ -6,6 +6,7 @@ import { PositionHintComponent } from './snack-bar/position-hint.component';
 
 export interface Position {
   name: string;
+  address: string;
   form_url?: string;
   image_url?: string;
   coordinate: [number, number];
@@ -21,6 +22,7 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
   positions: Position[] = [
     {
       name: 'Roosevelt',
+      address: '945 NE 69th St, Seattle, WA 98115',
       coordinate: [47.678379479258055, -122.3176071273783],
       form_url: 'https://docs.google.com/forms/d/e/1FAIpQLSeEtzXIYPsjWsRnM5RGJ3qyQ1aqj1py7IJLL0Lrba_hrFvrNg' +
         '/viewform?embedded=true&usp=pp_url&entry.1742789131=4:00+PM+Saturday@Parking+near+Roosevelt+Station+(945+NE+69th+St,+Seattle,+WA+98115)',
@@ -28,6 +30,7 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
     },
     {
       name: 'Bellevue',
+      address: '10116 NE 8th St, Bellevue, WA 98004',
       coordinate: [47.61788385121235, -122.20540697482997],
       form_url: 'https://docs.google.com/forms/d/e/1FAIpQLSeEtzXIYPsjWsRnM5RGJ3qyQ1aqj1py7IJLL0Lrba_hrFvrNg' +
         '/viewform?embedded=true&usp=pp_url&entry.1742789131=1:00+PM+Saturday@Under+the+clock+at+Bellevue+Bartell+(10116+NE+8th+St,+Bellevue,+WA+98004)',
@@ -61,12 +64,13 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   createMap(): void {
-    const osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    const osmOption = {
+    const accessToken: string = 'pk.eyJ1IjoicmljaGFyZHRhaSIsImEiOiJjbGQ5azM5dGEwOWtsM29xcGh5cWVzcnhpIn0.4kHu_v_Qil0HcADJv9EE-w';
+    const osmUrl: string = 'https://api.mapbox.com/styles/v1/mapbox/streets-v12/tiles/{z}/{x}/{y}@2x?access_token=' + accessToken;
+    const osmOption: L.TileLayerOptions = {
       maxZoom: 19,
-      edgeBufferTiles: 1,
-      detectRetina: true,
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      tileSize: 1024,
+      zoomOffset: -2,
+      attribution: '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     };
     const osmLayer = new L.TileLayer(osmUrl, osmOption);
 
@@ -90,7 +94,7 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
     });
 
     const customIcon = L.icon({
-      iconUrl: 'assets/icons/red.png',
+      iconUrl: 'assets/icons/icons8-location.gif',
       iconAnchor: [24, 48]
     });
 

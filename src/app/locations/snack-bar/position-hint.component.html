@@ -1,13 +1,13 @@
 <h1>
   {{position.name}}
 </h1>
-
+<p>{{position.address}}</p>
 <img [src]="position.image_url" alt="{{ position.name }}">
 
 <hr>
 <div class="actions">
   <div class="buttons">
-    <button mat-raised-button color="primary" (click)="routeToOrder()">
+    <button mat-raised-button color="accent" (click)="routeToOrder()">
       Order</button>
   </div>
   
