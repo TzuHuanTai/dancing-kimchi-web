@@ -68,8 +68,8 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
     const osmUrl: string = 'https://api.mapbox.com/styles/v1/mapbox/streets-v12/tiles/{z}/{x}/{y}@2x?access_token=' + accessToken;
     const osmOption: L.TileLayerOptions = {
       maxZoom: 19,
-      tileSize: 1024,
-      zoomOffset: -2,
+      tileSize: 512,
+      zoomOffset: -1,
       attribution: '© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     };
     const osmLayer = new L.TileLayer(osmUrl, osmOption);
