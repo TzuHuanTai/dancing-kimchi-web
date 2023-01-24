@@ -65,6 +65,7 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
     const osmOption = {
       maxZoom: 19,
       edgeBufferTiles: 1,
+      detectRetina: true,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     };
     const osmLayer = new L.TileLayer(osmUrl, osmOption);
