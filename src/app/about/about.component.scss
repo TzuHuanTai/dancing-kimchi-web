@@ -1,0 +1,121 @@
+h2 {
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+p {
+    line-height: 1.6875;
+    font-weight: bold;
+}
+
+.first-block {
+    padding-top: 3rem;
+}
+
+.action-block {
+    position: relative;
+    display: grid;
+    padding-bottom: 5rem;
+}
+
+.action-block-media {
+    position: relative;
+    grid-row: 1;
+}
+
+.action-block-contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row: 1;
+    background-color: #efebda;
+}
+
+@media (min-width: 48rem) {
+    .embed-video {
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    h1 {
+        top: 98px;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .action-block-a {
+        grid-template-columns: repeat(3, 1fr);
+
+        .action-block-media {
+            grid-column: 1/3;
+            margin: 40px 0;
+        }
+
+        .action-block-contain {
+            grid-column: 2/-1;
+            padding-left: 33vw;
+            padding-right: 3rem;
+        }
+
+        figure {
+            margin-right: -4vw;
+        }
+    }
+
+    .action-block-b {
+        grid-template-columns: repeat(3, 1fr);
+
+        .action-block-media {
+            grid-column: 2/-1;
+            margin: 40px 0;
+        }
+
+        .action-block-contain {
+            grid-column: 1/3;
+            padding-right: 33vw;
+            padding-left: 3rem;
+        }
+
+        figure {
+            margin: 4vw 0 0 4vw;
+        }
+    }
+}
+
+@media (max-width: 48rem) {
+    .embed-video {
+        width: 100%;
+    }
+
+    h1 {
+        top: 56px;
+    }
+
+    .action-block {
+        padding-bottom: 1rem;
+        grid-template-rows: repeat(2, 1fr);
+
+        .action-block-media {
+            grid-row: 1/2;
+            margin-bottom: -50px;
+        }
+
+        .action-block-contain {
+            grid-row: 2/-1;
+            padding: 3rem 1vw 1vh 1vw;
+            text-align: center;
+            height: 40vw;
+        }
+    }
+
+    figure {
+        margin: 0 auto;
+        padding: 0 6vw;
+    }
+}
+
+img {
+    width: 100%;
+}

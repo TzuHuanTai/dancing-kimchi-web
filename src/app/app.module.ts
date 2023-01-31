@@ -13,6 +13,7 @@ import { ProductsComponent } from './products/products.component';
 import { LocationsComponent } from './locations/locations.component';
 import { SharedMaterialModule } from './shared-material.module';
 import { PositionHintComponent } from './locations/snack-bar/position-hint.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PositionHintComponent } from './locations/snack-bar/position-hint.compo
     OrderComponent,
     ProductsComponent,
     LocationsComponent,
-    PositionHintComponent
+    PositionHintComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
