@@ -31,11 +31,43 @@ body {
     flex: 1;
 }
 
-.global-footer{
+.global-footer {
+    @media (min-width: 768px) {
+        display: grid;
+        max-height: 168px;
+        padding: 24px 48px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 24px;;
+    }
+
     position: relative;
     bottom: 0;
     padding: 2vh;
     color: #fff;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: black;
     text-align: center;
+
+    svg{
+        height: 40px;
+        width: 40px;
+    }
+
+    .footer-logo {
+        position: relative;
+        margin-bottom: 1rem;
+
+        >img {
+            position: relative;
+            width: 168px;
+        }
+    }
+
+    .footer-contact {
+        position: relative;
+        text-align: left;
+        color: #fff;
+    }
 }
