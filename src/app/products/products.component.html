@@ -1,42 +1,96 @@
-<section class="action-block">
-  <div class="action-block-media">
-    <figure>
-      <img src="assets/sample/orange_1.jpg">
-    </figure>
-  </div>
-  <div class="action-block-contain">
-    <h2>
-      Orange Kimchi
-    </h2>
-    <table>
-      <tr>
-        <h3>
-          INGREDIENTS
-        </h3>
-      </tr>
-      <tr>
-        <td>
-          <p>NAPA CABBAGE, TURNIP, CARROT, RED CHILE PEPPER, GARLIC, MIRIN, VINEGAR, SESAME OIL, CHILI OIL, SUGAR, SALT,
-            BONITO POWDER (MSG)</p>
-        </td>
-      </tr>
-      <tr colspan="2">
-        <hr>
-      </tr>
-      <tr>
-        <h3>
-          ALLERGY
-        </h3>
-      </tr>
-      <tr>
-        <td>
-          <p>CONTAINS SESAME, FISH (BONITO). MAY CONTAIN SOYBEANS</p>
-        </td>
-      </tr>
-    </table>
-  </div>
-</section>
+<div class="products">
+  <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="center">
+    <mat-tab label="Orange">
+      <section class="action-block">
+        <div class="action-block-media">
+          <figure>
+            <img src="assets/sample/orange_1.jpg">
+          </figure>
+        </div>
+        <div class="action-block-contain">
+          <h2>
+            Orange Kimchi
+          </h2>
+          <table>
+            <tr>
+              <h3>
+                INGREDIENTS
+              </h3>
+            </tr>
+            <tr>
+              <td>
+                <p>NAPA CABBAGE, TURNIP, CARROT, RED CHILE PEPPER, GARLIC, MIRIN, VINEGAR, SESAME OIL, CHILI OIL, SUGAR,
+                  SALT,
+                  BONITO POWDER.</p>
+              </td>
+            </tr>
+            <tr colspan="2">
+              <hr>
+            </tr>
+            <tr>
+              <h3>
+                ALLERGY
+              </h3>
+            </tr>
+            <tr>
+              <td>
+                <p>CONTAINS SESAME, FISH (BONITO).</p>
+                <p>MAY CONTAIN SOYBEANS.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <hr class="horizontal-line">
+        <div class="nutrition-block">
+          <img class="nutrition orange-nutrition">
+        </div>
+      </section>
+    </mat-tab>
 
-<div class="nutrition">
-  <img class="orange-nutrition">
+    <mat-tab label="Golden">
+      <section class="action-block">
+        <div class="action-block-media">
+          <figure>
+            <img src="assets/sample/coming_soon.png">
+          </figure>
+        </div>
+        <div class="action-block-contain">
+          <h2>
+            Golden Kimchi
+          </h2>
+          <table>
+            <tr>
+              <h3>
+                INGREDIENTS
+              </h3>
+            </tr>
+            <tr>
+              <td>
+                <p>NAPA CABBAGE, CARROT, RED CHILE PEPPER, GARLIC, VINEGAR, SESAME OIL, CHILI OIL, SUGAR, SALT, BONITO
+                  POWDER,
+                  MUSTARD, FERMENTED TOFU.</p>
+              </td>
+            </tr>
+            <tr colspan="2">
+              <hr>
+            </tr>
+            <tr>
+              <h3>
+                ALLERGY
+              </h3>
+            </tr>
+            <tr>
+              <td>
+                <p>CONTAINS SESAME, FISH (BONITO), SOYBEANS.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <hr class="horizontal-line">
+        <div class="nutrition-block">
+          <img class="nutrition golden-nutrition">
+        </div>
+      </section>
+    </mat-tab>
+  </mat-tab-group>
 </div>

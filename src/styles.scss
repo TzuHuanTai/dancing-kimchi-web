@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 html,
 body {
@@ -10,20 +13,34 @@ body {
 }
 
 @media (min-width: 768px) {
+    :root {
+        --nav-height: 98px;
+    }
+
     body {
-        padding-top: 98px;
+        padding-top: var(--nav-height);
+    }
+
+    .global-footer {
+        display: grid;
+        max-height: 168px;
+        padding: 24px 48px;
     }
 }
 
 @media (max-width: 768px) {
+    :root {
+        --nav-height: 56px;
+    }
+
     body {
-        padding-top: 56px;
+        padding-top: var(--nav-height);
+    }
+
+    .global-footer {
+        padding: 24px;
     }
 }
-
-/* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 .global-content {
     width: 100%;
@@ -32,16 +49,6 @@ body {
 }
 
 .global-footer {
-    @media (min-width: 768px) {
-        display: grid;
-        max-height: 168px;
-        padding: 24px 48px;
-    }
-
-    @media (max-width: 768px) {
-        padding: 24px;;
-    }
-
     position: relative;
     bottom: 0;
     padding: 2vh;
@@ -50,7 +57,7 @@ body {
     background-color: black;
     text-align: center;
 
-    svg{
+    svg {
         height: 40px;
         width: 40px;
     }
