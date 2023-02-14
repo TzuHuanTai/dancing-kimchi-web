@@ -22,10 +22,10 @@ export class LocationsComponent implements OnInit, AfterViewInit, OnDestroy {
   positions: Position[] = [
     {
       name: 'Roosevelt',
-      address: '945 NE 69th St, Seattle, WA 98115',
+      address: '849 NE 68th St, Seattle, WA 98115',
       coordinate: [47.678379479258055, -122.3176071273783],
       form_url: 'https://docs.google.com/forms/d/e/1FAIpQLSeEtzXIYPsjWsRnM5RGJ3qyQ1aqj1py7IJLL0Lrba_hrFvrNg' +
-        '/viewform?embedded=true&usp=pp_url&entry.1742789131=4:00+PM+@Parking+near+Roosevelt+Station+(945+NE+69th+St,+Seattle,+WA+98115)',
+        '/viewform?embedded=true&usp=pp_url&entry.1742789131=4:00+PM+@No.168+parking+lot+near+Roosevelt+Station+(849+NE+68th+St,+Seattle,+WA+98115)',
       image_url: 'assets/positions/roosevelt_parking.jpg',
     },
     {
